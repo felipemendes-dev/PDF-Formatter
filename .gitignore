@@ -1,0 +1,17 @@
+# Pastas geradas pelo PyInstaller
+build/
+dist/
+__pycache__/
+*.spec
+
+# Pastas de saída do seu próprio programa
+arquivos/
+
+# Ambiente virtual do Python (caso você use)
+.venv/
+venv/
+env/
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
