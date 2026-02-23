@@ -19,8 +19,8 @@ def processar_pdf(caminho_arquivo):
 
     try:
         print("\n--- Configuração de Páginas ---")
-        inicio = int(input("Inserir folha em branco APÓS qual página? (Ex: 3): "))
-        intervalo = int(input("De quantas em quantas páginas pular? (Ex: 3): "))
+        inicio = int(input("Inserir folha em branco APÓS qual página? "))
+        intervalo = int(input("\nDe quantas em quantas páginas pular? "))
         
         reader = PyPDF2.PdfReader(caminho_arquivo)
         writer = PyPDF2.PdfWriter()
@@ -68,7 +68,8 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         processar_pdf(sys.argv[1])
     else:
-        arq = input("Arraste o PDF aqui e aperte Enter: ")
+        print("Bem vindo ao script para adicionar paginas em branco em seu PDF!")
+        arq = input("\nArraste o PDF aqui e aperte Enter: ")
         if arq:
             processar_pdf(arq)
     input("\n--- Pressione Enter para fechar ---")
