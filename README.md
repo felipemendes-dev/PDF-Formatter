@@ -1,6 +1,8 @@
 # 📄 Formatador de PDF para Impressão Frente e Verso
 Adiciona paginas em branco em arquivos PDF
 
+[Clique AQUI](https://github.com/felipemendes-dev/PDF-Formatter/releases/download/Release/PDF.Formatter.1.0.zip) para baixar a versão mais recente!
+
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge&logo=python)
 ![License](https://img.shields.io/badge/Licença-MIT-green?style=for-the-badge)
 
